@@ -1,16 +1,28 @@
 .headline-image {
-  margin-top: 128px;
+  padding: 128px 0;
 }
 
 .headline-tag {
-  text-align: center;
-  color: white;
-  margin-top: 64px;
-  padding-bottom: 128px;
+  padding: 128px 0;
+  font-weight: 300;
 }
 
-.headline-feature {
+.headline-tag small {
+  font-weight: 300;
+}
+
+.feature-title {
   display: inline-block;
   font-size: 28px;
   padding: 16px 0;
+  font-weight: 200;
 }
+
+.feature-text {
+  font-weight: 300;
+}
+
+.display-4 small {
+  font-weight: 200;
+}
+
