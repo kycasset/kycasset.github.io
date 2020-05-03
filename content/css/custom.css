@@ -1,14 +1,34 @@
-.headline-image {
+.brand {
+  background: #242c59;
+  background: -moz-linear-gradient(top,  #242c59 0%, #195c8b 100%);
+  background: -webkit-linear-gradient(top,  #242c59 0%,#195c8b 100%);
+  background: linear-gradient(to bottom,  #242c59 0%,#195c8b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#242c59', endColorstr='#195c8b',GradientType=0 );  
+}
+
+.brand-image {
   padding: 128px 0;
 }
 
-.headline-tag {
+.headline {
   padding: 128px 0;
   font-weight: 300;
+}
+
+.headline-tag {
+  padding-bottom: 96px;
 }
 
 .headline-tag small {
   font-weight: 300;
+}
+
+.feature {
+  background: #195c8b;
+  background: -moz-linear-gradient(top,  #195c8b 0%, #242c59 100%);
+  background: -webkit-linear-gradient(top,  #195c8b 0%,#242c59 100%);
+  background: linear-gradient(to bottom,  #195c8b 0%,#242c59 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#195c8b', endColorstr='#242c59',GradientType=0 );
 }
 
 .feature-title {
