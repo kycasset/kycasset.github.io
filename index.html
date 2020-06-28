@@ -5,188 +5,298 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
-  <meta name="author" content="Matthew Layton, KYC Asset Ltd.">
+  <meta name="author" content="Matthew Layton, Umazi Ltd.">
   <meta name="generator" content="Microsoft Visual Studio Code">
   <link rel="stylesheet" href="content/css/bootstrap.css">
   <link rel="stylesheet" href="content/css/custom.css">
-  <title>KYC Asset</title>
+  <title>Umazi</title>
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-fixed">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="content/logo/web/logo-web-sm.png" height="64">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
-        aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbar">
-        <div class="mr-auto"></div>
-        <ul class="navbar-nav lead">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">API</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+<body data-spy="scroll" data-target=".navbar" data-offset="90">
   <header>
-    <div class="brand">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="content/logo/web/logo-web-sm.png" height="64">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+          aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar">
+          <div class="mr-auto"></div>
+          <ul class="navbar-nav lead">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#why">Why Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="home" class="brand">
       <div class="container">
         <img src="content/logo/web/logo-web-lg.png" class="img-fluid brand-image">
       </div>
     </div>
   </header>
   <main>
-    <div class="bg-light">
-      <div class="container headline">
-        <h1 class="text-center headline-tag">
-          <p>Revolutionising KYC, due diligence and risk assessment</p>
-          <small class="text-muted">Built on blockchain and distributed ledger technology</small>
+    <section class="headline">
+      <div class="container">
+        <h1 class="display-4">
+          <p class="text-dark">Tokenizing Corporate Credentials</p>
+          <small class="text-primary">Facilitating authentication, KYC due diligence, and ongoing risk
+            assessment</small>
         </h1>
-        <div class="row mb-5">
-          <div class="col">
-            <div class="card border-primary">
-              <div class="card-body text-primary">
-                <h1 class="card-title text-center p-3">Today</h1>
-                <p class="card-text lead text-center">The KYC (Know Your Customer) process utilises a broken model that
-                  relies on manual data provisioning, human intervention, antiquated, siloed and still largely
-                  paper-based systems, making the process complex, inefficient, risky and exclusive.
-                </p>
-              </div>
-            </div>
+      </div>
+    </section>
+    <section id="about" class="slide slide-problem text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <img src="content/assets/about/problem.png" class="img-fluid">
           </div>
-          <div class="col">
-            <div class="card border-success">
-              <div class="card-body text-success">
-                <h1 class="card-title text-center p-3">Tomorrow</h1>
-                <p class="card-text lead text-center">The future of KYC will see this inefficient model superseded by
-                  smarter, better connected, highly automated, and far more open and inclusive compliance software
-                  enabling growth, healthier economies, and entirely new business models.
-                </p>
-              </div>
-            </div>
+          <div class="col-8 slide-content">
+            <h1 class="display-4 text-white">The Problem</h1>
+            <p class="text-justify text-primary">
+              The KYC process requires banks to collect and assess updated identity-related documentation
+              (credentials) from all their clients based on a largely manual, repetitive, inefficient, time-consuming,
+              cumbersome, non-standardised, and expensive process that lacks in security. Banks alone spend over $500m
+              on KYC annually.
+            </p>
           </div>
         </div>
-        <p class="h3 text-center text-muted py-5">By applying blockchain and distributed ledger technology to KYC Asset,
-          we streamline the compliance process by reducing complexity, time, cost and risk, allowing financial
-          institutions to manage client data more efficiently.
-        </p>
-        <p class="lead text-center"> If you are interested to learn more about our platform and technology, please
-          contact us today.<br />We will be happy to provide you with additional information.
-        </p>
       </div>
-    </div>
-    <div class="feature pt-5 pb-5">
+    </section>
+    <section class="slide slide-solution">
+      <div class="container">
+        <div class="row">
+          <div class="col-8 slide-content">
+            <h1 class="display-4 text-white">The Solution</h1>
+            <p class="text-justify text-primary">
+              Umazi’s solution automates and accelerates the corporate identity verification process, addressing
+              the inefficiencies of KYC. We marry distributed ledger technology and network effects to create a
+              utility that can scale across regulatory jurisdictions, and function in different languages.
+            </p>
+          </div>
+          <div class="col-4">
+            <img src="content/assets/about/solution.png" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="headline">
+      <div class="container">
+        <h1 class="display-4">
+          <p class="text-dark">Built on Blockchain and DLT</p>
+          <small class="text-primary">Reducing complexity and streamlining compliance</small>
+          <br>
+          <small class="text-primary">Reducing time, cost and risk of the compliance process</small>
+          <br>
+          <small class="text-primary">Allowing financial institutions to manage client data more effectively</small>
+        </h1>
+      </div>
+    </section>
+    <section id="features" class="feature">
       <div class="container">
         <div class="row">
           <div class="col-lg text-center text-white p-4">
-            <img src="content/assets/dlt.png" class="img-fluid pb-5">
+            <img src="content/assets/features/dlt.png" class="img-fluid pb-5">
             <span class="feature-title">Built on DLT</span>
-            <p class="feature-text p-4">KYC Asset is built on distributed ledger technology, allowing participants to
-              agree on a shared source of truth and perception using execution of smart contracts over secure, immutable
-              data. The value and security of a network built on DLT grows exponentially with the number of
-              participants. Existing systems can also be integrated easily and solutions can be tailored to meet
-              specific user and client requirements.
+            <p class="feature-text text-primary p-4">
+              Umazi is built on distributed ledger technology, allowing participants to agree on a shared source of
+              truth and perception using execution of smart contracts over secure, immutable data. The value and
+              security of a network built on DLT grows exponentially with the number of participants. Existing systems
+              can also be integrated easily and solutions can be tailored to meet specific user and client requirements.
             </p>
           </div>
           <div class="col-lg text-center text-white p-4">
-            <img src="content/assets/enterprise.png" class="img-fluid pb-5">
+            <img src="content/assets/features/enterprise.png" class="img-fluid pb-5">
             <span class="feature-title">Enterprise Ready</span>
-            <p class="feature-text p-4">
-              KYC Asset represents a utility to all participants but is built from the client's perspective and provides
+            <p class="feature-text text-primary p-4">
+              Umazi represents a utility to all participants but is built from the client's perspective and provides
               enterprise level integration into financial institutions and corporate entities as well as legal and data
               verification services. Clients are able to control and manage their own data, platform and client
               relationships, whilst allowing financial institutions to manage risk assessment and compliance.
             </p>
           </div>
           <div class="col-lg text-center text-white p-4">
-            <img src="content/assets/interoperability.png" class="img-fluid pb-5">
+            <img src="content/assets/features/interoperability.png" class="img-fluid pb-5">
             <span class="feature-title">Built for Interoperability</span>
-            <p class="feature-text p-4">KYC Asset is built on an open data model which provides interoperability and
-              scalability of data being shared on a distributed ledger. By building on a network that is owned by
-              participants and not by a single trusted party, participants are able to build their own solutions and
-              integrations utilising the same underlying data, therefore incentivising participants to utilise the KYC
-              Asset utility.
+            <p class="feature-text text-primary p-4">
+              Umazi is built on an open data model which provides interoperability and scalability of data being
+              shared on a distributed ledger. By building on a network that is owned by participants and not by a single
+              trusted party, participants are able to build their own solutions and integrations utilising the same
+              underlying data, therefore incentivising participants to utilise the Umazi utility.
             </p>
           </div>
         </div>
       </div>
-    </div>
-    <div class="bg-light">
+    </section>
+    <section id="why" class="why-us">
       <div class="container">
-        <article class="mt-5">
-          <h1 class="display-4">Automated Verification</h1>
-          <p class="text-justify lead">
-            KYC Asset leverages an event driven model. State transitions on the ledger raise events which can trigger
-            processes within integrated systems to provide automation over digital claims and data representing legal
-            entity identification.
-          </p>
-        </article>
-        <article class="mt-5">
-          <h1 class="display-4">Self-sovereign Identity</h1>
-          <p class="text-justify lead">
-            KYC Asset allows clients to take ownership of their legal entity identfication...
-          </p>
-        </article>
-        <article class="mt-5">
-          <h1 class="display-4">Pandemic Proof</h1>
-          <p class="text-justify lead">
-            KYC Asset faciliates the processing of KYC information even in lockdown...
-          </p>
-        </article>
-        <article class="mt-5">
-          <h1 class="display-4">Credentials as an Asset</h1>
-          <p class="text-justify lead">
-            Tokenisation of corporate credential to facilitate the authentication, KYC due diligence,and ongoing risk
-            assessment...
-          </p>
-        </article>
-        <article class="mt-5">
-          <h1 class="display-4">Verifiable Credentials</h1>
-          <p class="text-justify lead">
-            Digitisation of physical credentials directly from issuing source; for example, plastic cards, passports,
-            driving licences, qualifications and awards...
-          </p>
-        </article>
-        <article class="mt-5">
-          <h1 class="display-4">Claims Model</h1>
-          <p class="text-justify lead">
-            Digital solution based on attestable facts made through electronic claims to establish existence and
-            uniqueness...
-          </p>
-        </article>
-        <article class="mt-5">
-          <h1 class="display-4">Time and Cost Saving</h1>
-          <p class="text-justify lead">
-            Zero error tolerance and reduces KYC processing costs/burden...
-          </p>
-        </article>
-        <article class="mt-5">
-          <h1 class="display-4">Cloud Ready</h1>
-          <p class="text-justify lead">
-            KYC Asset is powered by the Corda network and can be deployed to Google Cloud, AWS or Microsoft Azure. With
-            the distributed and cloud-based infrastructure in place, you can rest assured that the performance of our
-            network will not be impacted.
-          </p>
-        </article>
+        <div class="row">
+          <div class="col-6">
+            <img src="content/assets/why-us/credentials-as-an-asset.png" width="192" class="img-fluid">
+            <h1 class="text-primary">Credentials as an Asset</h1>
+            <p class="text-dark lead">
+              Umazi allows identity credentials to be stored in a utility asset which can be distributed to members of
+              the Umazi network on a need-to-know basis to faciliate KYC, due diligence and ongoing risk assessment.
+            </p>
+          </div>
+          <div class="col-6">
+            <img src="content/assets/why-us/verifiable-credentials.png" width="192" class="img-fluid">
+            <h1 class="text-primary">Verifiable Credentials</h1>
+            <p class="text-dark lead">
+              Credentials such as passports, plastic cards, driving licenses and qualifications can be digitized, stored
+              privately in the Umazi network and verified by 3rd parties such as local authorities and governing bodies.
+            </p>
+          </div>
+          <div class="col-6">
+            <img src="content/assets/why-us/risk-profiling.png" width="192" class="img-fluid">
+            <h1 class="text-primary">Risk Profiling</h1>
+            <p class="text-dark lead">
+              The Umazi network allows subscribers to utility assets to obtain up-to-date claims and credentials to
+              better profile and assess customer risk levels, allowing businesses to take strategic action in real time.
+            </p>
+          </div>
+          <div class="col-6">
+            <img src="content/assets/why-us/self-sovereign-identity.png" width="192" class="img-fluid">
+            <h1 class="text-primary">Self-Sovereign Identity</h1>
+            <p class="text-dark lead">
+              Umazi allows network members to take ownership of their identity information by creating self-issued
+              claims which contain atomic units of information such as company name, number and registered status.
+            </p>
+          </div>
+          <div class="col-6">
+            <img src="content/assets/why-us/automated-verification.png" width="192" class="img-fluid">
+            <h1 class="text-primary">Automated Verification</h1>
+            <p class="text-dark lead">
+              The Umazi network leverages an event driven model where state transitions on the distributed ledger raise
+              events which can trigger processes within integrated systems to provide automation over digital claims and
+              data representing legal entity identification.
+            </p>
+          </div>
+          <div class="col-6">
+            <img src="content/assets/why-us/pandemic-proof.png" width="192" class="img-fluid">
+            <h1 class="text-primary">Pandemic Proof</h1>
+            <p class="text-dark lead">
+              The Umazi network provides the ability for identity information to be established and attested so that
+              remote onboarding of new customers can be performed in lockdown, just as easily as if you were in the
+              office.
+            </p>
+          </div>
+          <div class="col-6">
+            <img src="content/assets/why-us/claims-model.png" width="192" class="img-fluid">
+            <h1 class="text-primary">Claims Model</h1>
+            <p class="text-dark lead">
+              The claims provides a secure, digital solution to sharing attestable facts to establish existence and
+              uniqueness of atomic units of information. Claims also have the ability to allow data to become
+              interoperable and consistent across software platforms.
+            </p>
+          </div>
+          <div class="col-6">
+            <img src="content/assets/why-us/time-cost-saving.png" width="192" class="img-fluid">
+            <h1 class="text-primary">Time and Cost Saving</h1>
+            <p class="text-dark lead">
+              Process automation and digital smart contracts allow claims, assets and attestations to be created,
+              amended, revoked and distributed across the network without requiring manual intervention, raising the bar
+              for error tolerance and allows the network to scale effectively, saving time and money.
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
+    <section id="team" class="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <img src="content/assets/team/cindy.png" width="256" class="img-fluid rounded-circle border border-primary">
+            <h1 class="text-primary py-4">Cindy van Niekerk</h1>
+            <p class="lead text-white">
+              Cindy has over 10 years experience on the front lines of large-scale IT implementation projects with
+              global money centre banking institutions.
+              <br>
+              <br>
+              Her project management experience includes work with JP Morgan, HSBC, Barclays, Deutsche Bank, Lloyds,
+              RBS, Scotiabank, Merrill Lynch, Northern Trust, NatWest and BNP Paribas. Cindy transitioned to the Fintech
+              world in 2018, working with Marco Polo / TradeIX and, more recently, Finteum.
+              <br>
+              <br>
+              Cindy has particular expertise in IT projects driven by regulatory change. She has overseen large scale
+              implementations associated with Dodd-Frank, MIFID II, EMIR and various Asian Regulations (MAS, HKMA,
+              ASIC).
+              <br>
+              <br>
+              Cindy is a South African born British national whose project management experience is global in scope,
+              having worked and lived in Singapore in addition to London.
+              <br>
+              <br>
+              Cindy recently obtained her Oxford Blockchain Strategy Certification by Said Business School and Corda
+              Developer Certification.
+            </p>
+          </div>
+          <div class="col-6">
+            <img src="content/assets/team/matt.png" width="256" class="img-fluid rounded-circle border border-primary">
+            <h1 class="text-primary py-4">Matthew Layton</h1>
+            <p class="lead text-white">
+              Matthew is a seasoned software developer with over 10 years of professional experience in both public and
+              private sectors; including healthcare, electronic point-of-sale, mission critical systems, travel and
+              financial technology.
+              <br>
+              <br>
+              His technical lead and architecting experience includes work with the Blockchain and DLT team at TradeIX
+              and the production ready CorDapp as part of MarcoPolo.
+              <br>
+              <br>
+              Matthew is the technical and innovation lead at Ivno and is responsible again for architecting their
+              production ready CorDapp infrastructure. He is drawing on a wealth of technical knowledge and expertise
+              and contributes to the developer ecosystem through several open source projects.
+              <br>
+              <br>
+              Matthew's focus has a strong stance on enterprise application architecture, software design patterns and
+              principles, clean, maintainable code, and endeavours to lead development teams with a strong emphasis on
+              education.
+              <br>
+              <br>
+              As Corda certified professional developer, and an IBM certified Blockchain developer he has applied a keen
+              interest in cryptography, especially working in the Blockchain and DLT arena.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="headline">
+      <div class="container">
+        <h1 class="display-4 pb-4">
+          <p class="text-dark">Want to Know More?</p>
+          <small class="text-primary pb-4">
+            If you'd like to know more about how Umazi can faciliate KYC due diligence and risk assessment in your
+            business, please don't hesitate to contact us.
+          </small>
+        </h1>
+        <a href="mailto:info@umazi.io?subject=Enquiry" class="btn btn-dark btn-lg my-4">Email Us</a>
+        <p class="mt-4 mb-0 text-dark lead text=centre">info@umazi.io</p>
+      </div>
+    </section>
   </main>
   <footer class="bg-dark">
-    <p class="text-center text-white p-4 m-0">Copyright &copy; KYC Asset Ltd. 2020</p>
+    <p class="text-center text-primary p-4">Copyright &copy; Umazi Limited - 2020</p>
   </footer>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"

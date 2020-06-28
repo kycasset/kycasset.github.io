@@ -1,26 +1,71 @@
+html, body {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+}
+
 .brand {
+  margin-top: 90px;
   background: #242c59;
   background: -moz-linear-gradient(top,  #242c59 0%, #195c8b 100%);
   background: -webkit-linear-gradient(top,  #242c59 0%,#195c8b 100%);
   background: linear-gradient(to bottom,  #242c59 0%,#195c8b 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#242c59', endColorstr='#195c8b',GradientType=0 );  
+  padding-bottom: 64px;
 }
 
 .brand-image {
-  padding: 128px 0;
+  padding: 64px 0;
 }
 
 .headline {
-  padding: 128px 0;
-  font-weight: 300;
+  padding: 8em;
+  text-align: center;
 }
 
-.headline-tag {
-  padding-bottom: 96px;
+.headline h1 p {
+  font-weight: 200;
+  margin: 0;
 }
 
-.headline-tag small {
-  font-weight: 300;
+.headline h1 small {
+  font-size: 0.6em;
+  font-weight: 200;
+}
+
+.slide {
+  padding: 64px 0;
+}
+
+.slide-problem {
+  background: #195c8b;
+  background: -moz-linear-gradient(-45deg,  #195c8b 0%, #242c59 100%);
+  background: -webkit-linear-gradient(-45deg,  #195c8b 0%,#242c59 100%);
+  background: linear-gradient(135deg,  #195c8b 0%,#242c59 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#195c8b', endColorstr='#242c59',GradientType=1 );
+}
+
+.slide-solution {
+  background: #242c59;
+  background: -moz-linear-gradient(45deg,  #242c59 0%, #195c8b 100%);
+  background: -webkit-linear-gradient(45deg,  #242c59 0%,#195c8b 100%);
+  background: linear-gradient(45deg,  #242c59 0%,#195c8b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#242c59', endColorstr='#195c8b',GradientType=1 );
+}
+
+.slide-problem .slide-content {
+  padding: 64px 0 0 64px;
+}
+
+.slide-solution .slide-content {
+  padding: 64px 64px 0 0;
+}
+
+.slide-content h1 {
+  font-weight: 200;
+}
+
+.slide-content p {
+  font-weight: 200;
+  font-size: 1.6em;
 }
 
 .feature {
@@ -42,7 +87,41 @@
   font-weight: 300;
 }
 
-.display-4 small {
+.why-us {
+  padding: 64px 0;
+}
+
+.why-us .col-6 {
+  padding: 64px 32px;
+  text-align: center;
+}
+
+.why-us h1 {
   font-weight: 200;
 }
 
+.team {
+  background: #242c59;
+  background: -moz-linear-gradient(top,  #242c59 0%, #195c8b 100%);
+  background: -webkit-linear-gradient(top,  #242c59 0%,#195c8b 100%);
+  background: linear-gradient(to bottom,  #242c59 0%,#195c8b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#242c59', endColorstr='#195c8b',GradientType=0 );
+  padding: 64px 0;
+}
+
+.team .col-6 {
+  padding: 0 32px;
+  text-align: center;
+}
+
+.team img {
+  border-width: 4px !important;
+}
+
+.team h1 {
+  font-weight: 200;
+}
+
+footer p {
+  margin-bottom: 0;
+}
